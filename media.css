@@ -1,0 +1,92 @@
+@media screen and (max-width: 541px) {
+    .servicesContainer{
+        grid-template-columns: auto auto !important;
+        justify-content: space-around;
+    }
+    
+    .starRating{
+        width: 30vw;
+    }
+    .starRating span{font-weight: bold;
+        font-size: 0.6em !important;}
+    .starRating div{
+    font-size: 0.4em !important;}
+}
+@media screen  and (max-width: 800px) {.all-testimonials{
+    display: grid;
+    grid-template-columns: auto !important;
+    justify-content: center;
+}}
+@media screen  and (max-width: 800px) {
+    header nav{
+        display: none;
+    }
+    .hamMenu{
+        display: block;
+    }
+    #viewHamMenu{
+        display: block;
+    }.all-testimonials{
+        display: grid;
+        grid-template-columns: auto;
+        justify-content: center;
+    }
+    .platforms{
+        flex-direction: column;
+    }
+    .platforms .platform{
+        margin: 5px 3px;
+    }
+}
+
+@media screen and (max-width:831px) {
+    .featured-box img {
+        height: 15vw;
+        width: 15vw;
+    }#featuredinText{
+        position: relative;
+        bottom: 40px;
+    }
+    .starRating span{font-weight: bold;
+        font-size: 0.8em;}
+    .starRating div{
+    font-size: 0.6em;}
+    .starRating i{
+        font-size: 0.35em !important;
+    }
+    #aboutFunngro{
+        flex-direction: column;
+        height: auto;
+    }
+    #aboutFunngro .aboutText{
+        width: 88vw;
+    }
+    #aboutFunngro .aboutImg img{
+        margin-top: 5px;
+        width: 300px;
+    }
+}
+@media screen and (max-width:1440px) {
+    .all-testimonials{
+            display: grid;
+            grid-template-columns: auto auto;
+            justify-content: center;
+        }
+}
+@media screen and (max-width:1280px) {
+    .featured-boxes-container{
+        display: grid;
+    grid-template-columns: auto auto;
+    }
+    #featuredIn #featuredinText{
+        font-size: 1.3em;
+        margin: 0px 16px;
+    }
+}
+@media screen and (min-width:1830px) {
+    .all-testimonials{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: auto auto auto auto;
+    }
+}

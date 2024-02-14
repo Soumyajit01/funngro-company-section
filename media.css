@@ -16,7 +16,12 @@
     display: grid;
     grid-template-columns: auto !important;
     justify-content: center;
-}}
+}
+#openHam{
+    display: block !important;
+}
+
+}
 @media screen  and (max-width: 800px) {
     header nav{
         display: none;
